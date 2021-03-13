@@ -1,0 +1,388 @@
+/***** BASE STYLES *****/
+
+body{
+    color:#000000;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+}
+
+/***** GRID *****/
+
+.container{
+  width: 1200px;
+  margin:0 auto;
+}
+
+.full-width{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.third-width{
+    float:left;
+    width: 398px;
+    height:auto;
+
+}
+
+/***** HEADER CSS CODE *****/
+
+header{
+    color: #000000;
+    border-bottom: 3px solid #77a466;
+    height: 110px;
+    margin-left: 0 auto;
+}
+
+header h1{
+    font-size: 30px;
+    line-height: 23px;
+    padding: 45px 0;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+}
+header h1 a{
+  text-decoration: none;
+  color: inherit;
+
+}
+header h1 span{
+    color: #77a466;
+}
+
+
+header nav{
+    float: right;
+    padding: 30px 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+nav ul li a{
+  color: #77a466;
+  text-decoration: none;
+}
+
+/***** FIRST SECTION CSS CODE *****/
+
+.first-section {
+  clear: both;
+  height:450px;
+}
+
+.first-section img{
+border-bottom: 3px solid #77a466;
+}
+
+.first-section h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.first-section p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 30px;
+}
+
+/***** SECOND SECTION CSS CODE *****/
+
+.second-section{
+  border-top: 1px solid #eeeeee;
+  float: left;
+}
+#menu {
+  border-right: 1px solid #eeeeee;
+}
+
+#reviews {
+  border-right: 1px solid #eeeeee;
+}
+
+#menu h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 10px 3px;
+}
+
+#reviews h3{
+font-size: 12px;
+font-weight: bold;
+line-height: 25px;
+text-transform: uppercase;
+padding: 20px 25px;
+margin: 0px auto;
+}
+
+#address h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  margin: 0px auto;
+
+}
+
+#menu ul{
+  list-style-type: none;
+  padding: 0px;
+  color:#77a466;
+}
+
+#menu ul li{
+padding: 10px 0;
+
+}
+
+#reviews #contact h3{
+  padding:10px 30px;
+}
+
+#reviews p{
+font-size: 16px;
+line-height: 21px;
+padding: 0px 30px;
+}
+
+#address p{
+font-size: 16px;
+line-height: 24px;
+padding: 0 30px;
+
+}
+/***** FOOTER CSS CODE *****/
+
+footer {
+	height: 50px;
+	border-top: 1px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer h2{
+font-size: 16px;
+text-transform: uppercase;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
+
+/***** About Page CSS CODE *****/
+.left-section{
+float:left;
+width:600px;
+margin: 0px;
+}
+.left-section img{
+width:450px;
+padding:20px 60px;
+}
+
+.right-section {
+  float:right;
+  width: 600px;
+  text-align: center;
+  padding:80px 30px 0px 0px;
+  box-sizing: border-box;
+}
+
+.right-section h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.right-section p{
+  font-size: 16px;
+  line-height: 25px;
+  padding: 20px;
+}
+
+/***** Locations Page CSS CODE *****/
+
+#location-description{
+  text-align: center;
+  line-height: 25px;
+  padding: 30px 250px 0px 250px;
+}
+
+.iframe-container {
+  width: 50%;
+  border: 3px solid #77a466;
+  margin: 50px auto;
+}
+
+#schedule-button{
+  background-color: #77a466;
+  width:180px;
+  margin: 20px auto;
+  color: white;
+  padding: 15px 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#schedule-button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/***** Menu CSS CODE *****/
+
+section.menu {
+margin: auto;
+text-align: center;
+align-content: space-evenly;
+
+}
+
+section.menu h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+#menu-header {
+font-size: 24px;
+padding: 20px 0px 20px 0px;
+
+}
+
+section.menu h3 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+section.menu ul {
+list-style: none;
+line-height: 15px;
+}
+
+
+#menu-intro {
+padding: 0 300px;
+line-height: 25px;
+
+
+}
+
+.veg-logo {
+width: 20px;
+vertical-align: middle;
+
+}
+
+.fruit-logo {
+  width: 20px;
+  vertical-align: middle;
+
+}
+
+#dessert {
+  margin-bottom: 40px;
+
+}
+
+/***** Gallery CSS CODE *****/
+
+.gallery {
+  width: 100%;
+  height:650px;
+  text-align: center;
+  margin-left: auto;
+
+}
+
+.images-gallery {
+  margin:5px;
+  float: left;
+}
+
+.left-column {
+  margin-left: 55px;
+
+}
+
+section.gallery img {
+  width: 350px;
+  height: 250px;
+ border: 3px solid #77a466;
+
+}
+section.gallery h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+/***** Reviews CSS CODE *****/
+
+.review-image {
+  float: right;
+  width: 600px;
+  margin: 20px 0px;
+}
+
+.review-image img{
+  width: inherit;
+}
+
+.review-text {
+  float: left;
+  width: 600px;
+
+}
+
+.left-review {
+  text-align: left;
+  padding: 15px 20px;
+
+}
+
+.right-review {
+  text-align: right;
+  padding: 15px 20px;
+}
+
+.review-text h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+p.review-des{
+  font-style: italic;
+  font-size: 12px;
+
+}
