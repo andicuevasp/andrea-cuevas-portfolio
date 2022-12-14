@@ -2,7 +2,7 @@
 import quizzical from "./assets/quizzical.png"
 import tenzies from "./assets/tenzies-app.png"
 import stickyNote from "./assets/sticky-notes.png"
-import mockHotel from "./assets/mock-hotel-booking.png"
+import billCalc from "./assets/bill-calc.jpg"
 
 export const projects = [
     {
@@ -27,11 +27,11 @@ export const projects = [
         link: "https://andicuevasp.github.io/sticky-note-ui/"
     },
     {
-        title: "Mock Hotel Booking App",
-        subtitle: "JavaScript, React, Class Components",
-        description: "A mock hotel booking UI that updates when filters are applied or removed.",
-        image: mockHotel,
-        link: "https://andicuevasp.github.io/mock-hotel-booking-ui/"
+        title: "Tip Calculator / Bill Splitter App",
+        subtitle: "JavaScript, React, React Forms",
+        description: "A bill calculator app that tells you how much tip and total amount each person owes.",
+        image: billCalc,
+        link: "https://effervescent-sunflower-6f3852.netlify.app/"
     }
 ]
 
