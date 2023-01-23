@@ -1,7 +1,7 @@
 
 import quizzical from "./assets/quizzical.png"
 import tenzies from "./assets/tenzies-app.png"
-import stickyNote from "./assets/sticky-notes.png"
+import culinarian from "./assets/culinarian.png"
 import billCalc from "./assets/bill-calc.jpg"
 
 export const projects = [
@@ -20,11 +20,11 @@ export const projects = [
         link: "https://melodic-klepon-a8257b.netlify.app/"
     },
     {
-        title: "Sticky Note App",
-        subtitle: "JavaScript, React, Class Components",
-        description: "A sticky note app that lets you create, edit, save locally and delete the notes.",
-        image: stickyNote,
-        link: "https://andicuevasp.github.io/sticky-note-ui/"
+        title: "Culinarian App",
+        subtitle: "JavaScript, React, React Forms, working with API's",
+        description: "A recipe-finder app that gives you recipe suggestions depending on the ingredients you have at hand.",
+        image: culinarian,
+        link: "https://relaxed-fairy-3e733d.netlify.app/"
     },
     {
         title: "Tip Calculator / Bill Splitter App",
